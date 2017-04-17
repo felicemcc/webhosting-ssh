@@ -1,0 +1,18 @@
+// Una vez que instalé el wp en una carpeta especifica para bajarlo a la raiz debo correr
+// Nombre del directorio: wp
+// Ejecuto esto desde el directorio raíz
+
+
+cp wp/index.php index.php
+cp -a .htaccess .htaccess
+nano index.hp
+
+// Allí cambio
+
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+
+// por
+
+require( dirname( __FILE__ ) . '/wp/wp-blog-header.php' );
+
+// guardo los cambios y voilá!!!
