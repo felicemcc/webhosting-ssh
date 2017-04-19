@@ -4,8 +4,8 @@
 
 
 cp wp/index.php index.php
-cp -a .htaccess .htaccess
-nano index.hp
+cp -a wp/.htaccess .htaccess
+nano index.php
 
 // Allí cambio
 
